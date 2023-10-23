@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Mountain Bike 1",
+    "category": "Mountain",
+    "price": 799.99,
+    "isNew": true,
+    "description": "A rugged mountain bike built for off-road adventures.",
+    "image": "https://i.ibb.co/hD8yQ4c/Duratec1-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Road Bike 1",
+    "category": "Road",
+    "price": 1299.99,
+    "isNew": false,
+    "description": "A high-performance road bike designed for speed and efficiency.",
+    "image": "https://i.ibb.co/0qQtMMW/2176.png"
+  },
+  {
+    "id": 3,
+    "name": "Hybrid Bike 1",
+    "category": "Hybrid",
+    "price": 599.99,
+    "isNew": true,
+    "description": "A versatile hybrid bike suitable for city commuting and light trails.",
+    "image": "https://i.ibb.co/W52zPhj/2187.png"
+  },
+  {
+    "id": 4,
+    "name": "BMX Bike 1",
+    "category": "BMX",
+    "price": 349.99,
+    "isNew": false,
+    "description": "A durable BMX bike for tricks and stunts at the skatepark.",
+    "image": "https://i.ibb.co/3rZr1jP/Rebel.png"
+  },
+  {
+    "id": 5,
+    "name": "Cruiser Bike 1",
+    "category": "Cruiser",
+    "price": 449.99,
+    "isNew": true,
+    "description": "A stylish cruiser bike for relaxed rides along the beach.",
+    "image": "https://i.ibb.co/XYPV2Xb/Swallow-handmade-vintage-bespoke-bicycle-frame-campagnolo-cinelli-removebg-preview.png"
+  },
+  {
+    "id": 6,
+    "name": "Mountain Bike 2",
+    "category": "Mountain",
+    "price": 899.99,
+    "isNew": false,
+    "description": "An advanced mountain bike with full suspension for extreme terrain.",
+    "image": "https://i.ibb.co/4K280fS/DSC2910-scaled-926d4b3a-removebg-preview.png"
+  },
+  {
+    "id": 7,
+    "name": "Road Bike 2",
+    "category": "Road",
+    "price": 1499.99,
+    "isNew": true,
+    "description": "A top-of-the-line road bike for serious cyclists.",
+    "image": "https://i.ibb.co/MRhK5KF/Freedom-Duratec-Piniongold-pedla-normal-jones-pinion-detail-1-scaled-removebg-preview.png"
+  },
+  {
+    "id": 8,
+    "name": "Hybrid Bike 2",
+    "category": "Hybrid",
+    "price": 699.99,
+    "isNew": false,
+    "description": "A comfortable hybrid bike with a focus on city commuting.",
+    "image": "https://i.ibb.co/f07v2Zk/ironbridge-bicycle-full-1-4395090e-removebg-preview.png"
+  },
+  {
+    "id": 9,
+    "name": "BMX Bike 2",
+    "category": "BMX",
+    "price": 399.99,
+    "isNew": true,
+    "description": "A compact and agile BMX bike for tricks and jumps.",
+    "image": "https://i.ibb.co/v1k5PTV/swallow-colins-bicycle-748x500-1-1-removebg-preview.png"
+  },
+  {
+    "id": 10,
+    "name": "Cruiser Bike 2",
+    "category": "Cruiser",
+    "price": 499.99,
+    "isNew": false,
+    "description": "A classic cruiser bike with a vintage look and modern features.",
+    "image": "https://i.ibb.co/4K280fS/DSC2910-scaled-926d4b3a-removebg-preview.png"
+  },
+  {
+    "id": 11,
+    "name": "Mountain Bike 3",
+    "category": "Mountain",
+    "price": 749.99,
+    "isNew": true,
+    "description": "A durable mountain bike for all-terrain adventures.",
+    "image": "https://i.ibb.co/gJDz5Rz/Eric-Eroica-6-764x500-1-removebg-preview.png"
+  },
+  {
+    "id": 12,
+    "name": "Road Bike 3",
+    "category": "Road",
+    "price": 1199.99,
+    "isNew": false,
+    "description": "A sleek and aerodynamic road bike for speed enthusiasts.",
+    "image": "https://i.ibb.co/0qQtMMW/2176.png"
+  },
+  {
+    "id": 13,
+    "name": "Hybrid Bike 3",
+    "category": "Hybrid",
+    "price": 649.99,
+    "isNew": true,
+    "description": "A lightweight hybrid bike perfect for urban commuting.",
+    "image": "https://i.ibb.co/v1k5PTV/swallow-colins-bicycle-748x500-1-1-removebg-preview.png"
+  },
+  {
+    "id": 14,
+    "name": "BMX Bike 3",
+    "category": "BMX",
+    "price": 369.99,
+    "isNew": false,
+    "description": "A BMX bike with sturdy construction for tricks and jumps.",
+    "image": "https://i.ibb.co/MRhK5KF/Freedom-Duratec-Piniongold-pedla-normal-jones-pinion-detail-1-scaled-removebg-preview.png"
+  },
+  {
+    "id": 15,
+    "name": "Cruiser Bike 3",
+    "category": "Cruiser",
+    "price": 429.99,
+    "isNew": true,
+    "description": "A comfortable and stylish cruiser bike for leisurely rides.",
+    "image": "https://i.ibb.co/gJDz5Rz/Eric-Eroica-6-764x500-1-removebg-preview.png"
+  },
+  {
+    "id": 16,
+    "name": "Mountain Bike 4",
+    "category": "Mountain",
+    "price": 949.99,
+    "isNew": false,
+    "description": "An entry-level mountain bike for those new to off-road cycling.",
+    "image": "https://i.ibb.co/3rZr1jP/Rebel.png"
+  },
+  {
+    "id": 17,
+    "name": "Road Bike 4",
+    "category": "Road",
+    "price": 1399.99,
+    "isNew": true,
+    "description": "A versatile road bike suitable for both long-distance and city riding.",
+    "image": "https://i.ibb.co/XYPV2Xb/Swallow-handmade-vintage-bespoke-bicycle-frame-campagnolo-cinelli-removebg-preview.png"
+  },
+  {
+    "id": 18,
+    "name": "Hybrid Bike 4",
+    "category": "Hybrid",
+    "price": 679.99,
+    "isNew": false,
+    "description": "A well-balanced hybrid bike designed for comfort and utility.",
+    "image": "https://i.ibb.co/W52zPhj/2187.png"
+  },
+  {
+    "id": 19,
+    "name": "BMX Bike 4",
+    "category": "BMX",
+    "price": 389.99,
+    "isNew": true,
+    "description": "A BMX bike with a lightweight frame for agile riding.",
+    "image": "https://i.ibb.co/f07v2Zk/ironbridge-bicycle-full-1-4395090e-removebg-preview.png"
+  },
+  {
+    "id": 20,
+    "name": "Cruiser Bike 4",
+    "category": "Cruiser",
+    "price": 479.99,
+    "isNew": false,
+    "description": "A comfortable cruiser bike with a focus on style and relaxation.",
+    "image": "https://i.ibb.co/hD8yQ4c/Duratec1-1.png"
+  }
+]
