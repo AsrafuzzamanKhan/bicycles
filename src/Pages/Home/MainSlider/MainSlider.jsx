@@ -62,7 +62,7 @@ const MainSlider = () => {
                                         {slide.titlePart2}<br />
                                         {slide.titlePart3}<br />
                                     </div>
-                                    <button className='btn btn-accent mx-auto lg:mx-0'>Shop Now</button>
+                                    <button className='btn bg-accent border-none flex mx-auto lg:mx-0'>Shop Now</button>
                                 </div>
                                 <div className='flex-1'>
                                     <img className='xl:absolute  w-[400px] xl:right-10 xl:bottom-6' src={slide.img} alt="" />

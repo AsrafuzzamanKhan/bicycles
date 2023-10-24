@@ -14,7 +14,7 @@ const Product = ({ product }) => {
                 <div className="w-full h-[200px] flex items-center justify-center relative">
 
                     <img
-                        className="w-[180px] group-hover:scale-90 transition-all"
+                        className="w-[200px] group-hover:scale-90 transition-all"
                         src={image} alt="Bicycle" />
                 </div>
                 {/* text  */}
