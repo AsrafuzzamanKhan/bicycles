@@ -1,15 +1,18 @@
 import { useParams } from "react-router-dom";
 import useBicycle from "../../../hooks/useBicycle";
 import RelatedProducts from "../RelatedProducts/RelatedProducts";
+import { useContext } from "react";
+import { CartContext } from "../../../context/CartProvider/CartProvider";
 
 const ProductDetails = () => {
     const { id } = useParams()
     const [bicycle] = useBicycle()
+    const { addToCart } = useContext(CartContext)
     const productDetails = bicycle.find(pd => pd.id == id)
     if (!productDetails) {
         return <div className="container mx-auto">loading....</div>
     }
-    console.log(productDetails.category)
+    // console.log(productDetails.category)
     return (
         <div className="mb-16 pt-44 lg:pt-[30px] xl:pt-0">
             <div className="container mx-auto">
@@ -31,7 +34,9 @@ const ProductDetails = () => {
                         <div className="flex items-center gap-x-8">
                             {/* price  */}
                             <div className="text-3xl font-semibold text-accent">$ {productDetails.price}</div>
-                            <button className="btn btn-accent">Add to cart</button>
+                            <button
+                                onClick={() => addToCart(productDetails, productDetails.id)}
+                                className="btn btn-accent">Add to cart</button>
                         </div>
 
                     </div>

@@ -8,7 +8,7 @@ const RelatedProducts = ({ categoryTitle }) => {
     // Use the filter method to get products of the selected category
     const filteredProducts = bicycle.filter(item => item.category === categoryTitle);
 
-    console.log("Products in the", categoryTitle, "category:", filteredProducts);
+    // console.log("Products in the", categoryTitle, "category:", filteredProducts);
     return (
         <div className="mb-16">
             <div className="container mx-auto">

@@ -9,7 +9,7 @@ const useBicycle = () => {
         fetch('/bicycles.json')
         .then(res=>res.json())
         .then(data=>{
-            console.log(data)
+          
             setBicycle(data)
             setLoading(false)
         })

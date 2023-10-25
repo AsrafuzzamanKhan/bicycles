@@ -7,7 +7,7 @@ const CategoryNavMobile = ({ setCatNavMobile }) => {
     // Extract unique category types
     const uniqueCategories = [...new Set(bicycle.map(item => item.category))];
 
-    console.log("Unique Category Types:", uniqueCategories);
+    // console.log("Unique Category Types:", uniqueCategories);
     return (
         <div className="w-full h-full bg-primary p-8" >
             {/* close icon  */}
