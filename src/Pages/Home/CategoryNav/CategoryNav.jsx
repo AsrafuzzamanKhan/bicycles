@@ -8,7 +8,7 @@ const CategoryNav = () => {
     // Extract unique category types
     const uniqueCategories = [...new Set(bicycle.map(item => item.category))];
 
-    console.log("Unique Category Types:", uniqueCategories[2]);
+    // console.log("Unique Category Types:", uniqueCategories);
 
     return (
         <aside className="hidden xl:block">
@@ -17,7 +17,7 @@ const CategoryNav = () => {
                 <div className="flex flex-col gap-y-6 p-6">
                     {
                         uniqueCategories.map((category, index) => {
-                            return <Link to={`/products/${uniqueCategories.category}`} key={index}>{category}</Link>
+                            return <Link to={`/products/${category}`} key={index}>{category}</Link>
                         })
                     }
                 </div>

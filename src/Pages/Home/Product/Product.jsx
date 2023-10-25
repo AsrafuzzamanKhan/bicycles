@@ -18,11 +18,11 @@ const Product = ({ product }) => {
                         src={image} alt="Bicycle" />
                 </div>
                 {/* text  */}
-                <div className="px-6 pb-8 flex flex-col">
+                <div className="flex flex-col px-6 pb-8 ">
                     {/* category  */}
                     <div className="text-sm text-accent">{category}</div>
                     {/* title  */}
-                    <div className="text-[15px] mb-4 lg:mb-9 ">{name.substring(0, 35)}...</div>
+                    <div className="text-[15px] mb-4 lg:mb-9 ">{name}</div>
                     <div className="text-lg text-accent">
                         $ {price}
                     </div>

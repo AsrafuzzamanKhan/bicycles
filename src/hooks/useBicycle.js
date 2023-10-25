@@ -6,7 +6,7 @@ const useBicycle = () => {
     const [bicycle,setBicycle]=useState([])
      const [loading, setLoading] = useState(true)
     useEffect(()=>{
-        fetch('bicycles.json')
+        fetch('/bicycles.json')
         .then(res=>res.json())
         .then(data=>{
             console.log(data)
