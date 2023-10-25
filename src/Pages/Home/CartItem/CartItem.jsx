@@ -7,6 +7,7 @@ import { CartContext } from "../../../context/CartProvider/CartProvider";
 const CartItem = ({ item }) => {
     const { removerFromCart } = useContext(CartContext)
     // console.log(item)
+    const price = (item.price * item.amount).toFixed(2)
     return (
         <div className="flex gap-x-8">
             <Link
@@ -26,11 +27,11 @@ const CartItem = ({ item }) => {
                 </div>
                 <div className=" flex items-center gap-x-12">
                     {/* amount  */}
-                    <div className="flex gap-x-4 mb-2">
-                        <div>
-                            <Qty></Qty>
-                        </div>
-                        <div className="text-accent text-xl">$ {item.price * item.amount}</div>
+                    <div className="flex gap-x-4 mb-2 items-center">
+
+                        <Qty item={item}></Qty>
+
+                        <div className="text-accent text-xl"> $ {price} </div>
                     </div>
 
                 </div>
