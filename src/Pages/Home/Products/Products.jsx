@@ -19,7 +19,7 @@ const Products = () => {
     // Use the filter method to get products of the selected category
     const filteredProducts = bicycle.filter(item => item.category === selectedCategory);
 
-    console.log("Products in the", selectedCategory, "category:", filteredProducts);
+    // console.log("Products in the", selectedCategory, "category:", filteredProducts);
 
     return (
         <div className="pt-40 mb-16 lg:pt-0">

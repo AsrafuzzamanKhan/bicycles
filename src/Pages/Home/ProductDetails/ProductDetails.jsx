@@ -9,7 +9,7 @@ const ProductDetails = () => {
     if (!productDetails) {
         return <div className="container mx-auto">loading....</div>
     }
-    console.log(productDetails)
+    console.log(productDetails.category)
     return (
         <div className="mb-16 pt-44 lg:pt-[30px] xl:pt-0">
             <div className="container mx-auto">
@@ -30,14 +30,16 @@ const ProductDetails = () => {
                         {/* price and btn   */}
                         <div className="flex items-center gap-x-8">
                             {/* price  */}
-                            <div className="">$ {productDetails.price}</div>
+                            <div className="text-3xl font-semibold text-accent">$ {productDetails.price}</div>
                             <button className="btn btn-accent">Add to cart</button>
                         </div>
 
                     </div>
                 </div>
                 {/* relatged  product  */}
-                <RelatedProducts></RelatedProducts>
+                <RelatedProducts
+                    categoryTitle={productDetails.category}
+                ></RelatedProducts>
             </div>
         </div>
     );
