@@ -58,10 +58,6 @@ const Header = () => {
                         </div>
                     </div>
 
-
-
-
-
                 </div>
                 {/* seacrh form show on mobile only  */}
                 <div className='xl:hidden'>
