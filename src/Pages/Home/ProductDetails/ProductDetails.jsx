@@ -14,13 +14,13 @@ const ProductDetails = () => {
     }
     // console.log(productDetails.category)
     return (
-        <div className="mb-16 pt-44 lg:pt-[30px] xl:pt-0">
+        <div className="pt-32 lg:pt-24 xl:pt-24">
             <div className="container mx-auto">
                 {/* text  */}
-                <div className="flex flex-col lg:flex-row gap-[30px] mb-[30px]">
-                    <div className="flex-1 lg:max-w-[40%] lg:h-[550px] grad rounded-lg flex justify-center items-center">
+                <div className="flex flex-col lg:flex-row gap-4 px-[2vw] lg:px-0">
+                    <div className="flex-1 lg:max-w-[40%] lg:h-[550px] grad rounded-lg flex justify-center items-center p-4 lg:p-0">
                         <img src={productDetails.image}
-                            className="w-full max-w-[65%]"
+                            className="w-full max-w-[75%]"
                             alt="" />
                     </div>
                     <div className="flex-1 bg-primary p-12 xl:p-20 flex flex-col justify-center">

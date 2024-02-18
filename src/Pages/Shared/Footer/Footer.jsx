@@ -34,7 +34,7 @@ const Footer = () => {
             <div className='py-10 border-t border-t-white/10'>
                 <div className='container mx-auto'>
                     <div className='text-center text-sm text-white/60'>
-                        Copyright &copy; Bicicle 2023.All rights reserved
+                        Copyright &copy; Bicycle 2023.All rights reserved
                     </div>
                 </div>
             </div>

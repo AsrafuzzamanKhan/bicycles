@@ -22,13 +22,13 @@ const Products = () => {
     // console.log("Products in the", selectedCategory, "category:", filteredProducts);
 
     return (
-        <div className="pt-40 mb-16 lg:pt-0">
+        <div className="pt-28 lg:pt-24 xl:pt-28">
 
-            <div className="container mx-auto">
+            <div className="container mx-auto min-h-screen">
                 <div className="flex gap-x-[30px]">
                     {/* category nav  */}
                     <CategoryNav />
-                    <main>
+                    <main className="w-full">
                         {/* title  */}
                         <div className="py-4 text-center uppercase text-xl lg:text-left">{category} Cycle</div>
                         {/* product grid   */}

@@ -46,13 +46,13 @@ const MainSlider = () => {
             pagination={{
                 clickable: true,
             }}
-            className='mainSlider h-full bg-primary xl:mainSlider xl:bg-no-repeat max-w-lg lg:max-w-none rounded-[8px] overflow-hidden drop-shadow-2xl'
+            className='mainSlider h-full w-full bg-primary lg:bg-no-repeat  lg:max-w-none rounded-[8px] overflow-hidden drop-shadow-2xl mx-auto'
         >
             <>
                 {
                     sliderData.map((slide, i) => {
                         return <SwiperSlide key={i}>
-                            <div className='flex flex-col lg:flex-row h-full p-[20px] md:p-[60px]'>
+                            <div className='flex flex-col lg:flex-row h-full p-[20px] md:p-[60px] mx-auto'>
 
                                 <div className='w-full lg:flex-1'>
                                     {/* text  */}
@@ -64,8 +64,8 @@ const MainSlider = () => {
                                     </div>
                                     <button className='btn bg-accent border-none flex mx-auto lg:mx-0'>Shop Now</button>
                                 </div>
-                                <div className='flex-1'>
-                                    <img className='xl:absolute  w-[400px] xl:right-10 xl:bottom-6' src={slide.img} alt="" />
+                                <div className='flex-1 mx-auto'>
+                                    <img className='lg:absolute  w-[400px] lg:right-10 lg:bottom-6 ' src={slide.img} alt="" />
                                 </div>
                             </div>
                         </SwiperSlide>

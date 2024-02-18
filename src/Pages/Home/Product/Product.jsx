@@ -5,7 +5,7 @@ const Product = ({ product }) => {
     const { id, name, price, image, description, isNew, category } = product
     return (
         <Link to={`/product/${id}`}>
-            <div className="grad w-full h-[362px] rounded-[8px] overflow-hidden relative group">
+            <div className="grad rounded-[8px] overflow-hidden relative group w-full">
                 {/* badge  */}
                 {isNew === true && <div className="absolute bg-accent text-primary text-[12px] font-extrabold uppercase top-4 right-4 rounded-full px-2 x-10">
                     new
@@ -18,11 +18,11 @@ const Product = ({ product }) => {
                         src={image} alt="Bicycle" />
                 </div>
                 {/* text  */}
-                <div className="flex flex-col px-6 pb-8 ">
+                <div className="flex flex-col px-[2vw] pb-8 ">
                     {/* category  */}
                     <div className="text-sm text-accent">{category}</div>
                     {/* title  */}
-                    <div className="text-[15px] mb-4 lg:mb-9 ">{name}</div>
+                    <div className="text-lg mb-4  ">{name}</div>
                     <div className="text-lg text-accent">
                         $ {price}
                     </div>

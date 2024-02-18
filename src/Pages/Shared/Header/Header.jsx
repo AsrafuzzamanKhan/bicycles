@@ -1,5 +1,3 @@
-
-
 import { FiMenu, FiShoppingBag } from 'react-icons/fi'
 import SearchForm from '../../Home/SearchForm/SearchForm';
 import CategoryNavMobile from '../../Home/CategoryNavMobile/CategoryNavMobile';
@@ -14,13 +12,13 @@ const Header = () => {
 
 
     return (
-        <header className='bg-primary py-6 fixed w-full top-0 z-40 lg:relative xl:mb-[30px]'>
+        <header className='bg-primary py-3 fixed w-full top-0 z-40 '>
             <div className="container mx-auto">
-                <div className='flex flex-row gap-4 lg:items-center justify-between mb-4 xl:mb-0'>
+                <div className='flex flex-row gap-4 items-center justify-between mb-2 xl:mb-0'>
                     {/* menu  */}
                     <div
                         onClick={() => setCatNavMobile(true)}
-                        className='text-3xl xl:hidden cursor-pointer'>
+                        className='text-3xl lg:hidden cursor-pointer'>
                         <FiMenu></FiMenu>
                     </div>
                     {/* category nav mobile  */}
@@ -29,10 +27,10 @@ const Header = () => {
                     </div>
                     {/* logo */}
                     <Link to={'/'}>
-                        <h1>Bicycle</h1>
+                        <h1 className='text-3xl uppercase font-bold'>Bicycle</h1>
                     </Link>
                     {/* seach form show only desktop  */}
-                    <div className='hidden w-full rounded-lg xl:flex xl:max-w-[734px] bg-purple-200'>
+                    <div className='hidden w-full rounded-lg lg:flex lg:max-w-[734px] bg-purple-200'>
                         <SearchForm />
                     </div>
                     {/* phone and cart  */}
@@ -50,9 +48,10 @@ const Header = () => {
                                 {itemsAmount}
                             </div>
                         </div>
+
                         {/* cart  */}
-                        <div className={`
-                    ${isOpen ? 'right-0' : '-right-full'}
+                        <div
+                            className={`${isOpen ? 'right-0' : '-right-full'}
                     bg-black shadow-xl fixed top-0 bottom-0 w-full z-10 md:max-w-[500px] transition-all duration-300`}>
                             <Cart></Cart>
                         </div>
@@ -60,7 +59,7 @@ const Header = () => {
 
                 </div>
                 {/* seacrh form show on mobile only  */}
-                <div className='xl:hidden'>
+                <div className='lg:hidden'>
                     <SearchForm />
                 </div>
             </div>

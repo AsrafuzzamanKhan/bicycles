@@ -10,8 +10,8 @@ const RelatedProducts = ({ categoryTitle }) => {
 
     // console.log("Products in the", categoryTitle, "category:", filteredProducts);
     return (
-        <div className="mb-16">
-            <div className="container mx-auto">
+        <div className="my-8">
+            <div className="container mx-auto w-full px-[2vw] lg:px-0">
                 <h2 className="h2 mb-6 text-center lg:text-start">Relate Productd</h2>
                 <ProductSlider data={filteredProducts}></ProductSlider>
             </div>

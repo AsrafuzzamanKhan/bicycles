@@ -24,11 +24,11 @@ const ProductSlider = ({ data }) => {
                     spaceBetween: 30
                 },
                 768: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 30
                 },
                 1024: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 30
                 },
                 1440: {
@@ -37,7 +37,7 @@ const ProductSlider = ({ data }) => {
                 },
 
             }}
-            className='productSlider mx-auto max-w-[360px] md:max-w-lg xl:max-w-[1410px]'
+            className=' container mx-auto '
         >
             <>
                 {data?.map(product => {

@@ -21,18 +21,18 @@ const Search = () => {
     );
     // console.log(filteredResults)
     return (
-        <div className="mb-[30px] pt-40 md:pt-40 xl:pt-0 lg:pt-5">
-            <div className="container mx-auto">
-                <div className="flex gap-x-[30px]">
+        <div className="pt-28 lg:pt-24 xl:pt-28">
+            <div className="container mx-auto min-h-screen px-[2vw] lg:px-0 w-full ">
+                <div className="flex gap-4 w-full ">
                     {/* category nav  */}
                     <CategoryNav></CategoryNav>
-                    <div>
+                    <div className="w-full">
                         {/* title  */}
-                        <div className="py-3 uppercase text-center lg:text-left text-xl">
+                        <div className="pb-3 uppercase text-center lg:text-left text-xl ">
                             {filteredResults?.length > 0 ? `${filteredResults.length} results for ${searchTerm}` : `no result found for ${searchTerm} `}
                         </div>
                         {/* products grid */}
-                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[15px] md:grid-[30px]">
+                        <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 w-full mx-auto">
                             {
                                 filteredResults.map((product, i) => {
                                     return <Product key={i}

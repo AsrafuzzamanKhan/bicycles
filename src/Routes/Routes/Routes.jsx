@@ -1,14 +1,18 @@
+import React from 'react'
+
 import { createBrowserRouter } from "react-router-dom";
-import Main from "../../Layout/Main";
+const LazyMain = React.lazy(() => import('../../Layout/Main'));
+// import Main from "../../Layout/Main";
 import Home from "../../Pages/Home/Home/Home";
 import ProductDetails from "../../Pages/Home/ProductDetails/ProductDetails";
 import Products from "../../Pages/Home/Products/Products";
 import Search from "../../Pages/Home/Search/Search";
+import Loader from "../../Loader/Loader";
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <Main></Main>,
+        element: <React.Suspense fallback={<Loader />}><LazyMain /></React.Suspense>,
         children: [
             {
                 path: '/',
